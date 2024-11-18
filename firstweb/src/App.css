@@ -1,0 +1,41 @@
+
+
+
+.para{
+  color:white;
+  background-color:red;
+  width:200px;
+  text-align:left;
+}
+
+.modalOverLay{
+  width:100%;
+  position:fixed;
+  height:100%;
+  display:none;
+  background-color:rgba(0, 0, 0,0.5);
+}
+.ModalDiv{
+   width:320px;
+   position:fixed;
+   height:320px; 
+   background-color:white;
+   left:50%;
+   transition:0.3s;
+   top:-500px;
+   transform:translate(-50%,-50%);
+
+}
+.en{
+  position:fixed;
+  right:-30px;
+  top:100px;
+  right:-30px;
+  transform:rotate(90deg);
+}
+.modalShow{
+  display:block;
+}
+.showModalDiv{
+  top:50%;
+}

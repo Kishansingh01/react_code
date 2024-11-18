@@ -1,0 +1,13 @@
+.error{
+    background-color:red;
+    color:green;
+    padding:5px;
+    margin-right:25px;
+}
+
+.warning{
+    background-color:yellow;
+    color:blue;
+    padding:5px;
+    margin-right:25px;
+}
